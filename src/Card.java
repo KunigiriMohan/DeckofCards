@@ -1,8 +1,8 @@
 public class Card {
     String[] suit;
-    int rank;
+    String[] rank;
 
-    public Card(int rank, String[] suit){
+    public Card(String  rank[], String[] suit){
         this.suit=suit;
         this.rank=rank;
     }
