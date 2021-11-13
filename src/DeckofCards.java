@@ -9,7 +9,7 @@ public class DeckofCards {
         for(String suits: suit){
             for(rank=1;rank<=13;rank++)
             {
-                Card oneCard=new Card(rank);
+                Card oneCard=new Card(rank,suit);
                 obj.deckofCards.add( oneCard);
             }
         }
