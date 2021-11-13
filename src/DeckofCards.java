@@ -4,10 +4,11 @@ public class DeckofCards {
     ArrayList<Card> deckofCards = new ArrayList<Card>();
     public static void main(String[] args){
         String [] suit = {"club","diamond","heart","Spade"};
+        String [] rank = {"1","2","3","4","5","6","7","8","9","Jack","King","Queen","Ace"};
         DeckofCards obj= new DeckofCards();
-        int rank;
+
         for(String suits: suit){
-            for(rank=1;rank<=13;rank++)
+            for(int i=0;i<=13;i++)
             {
                 Card oneCard=new Card(rank,suit);
                 obj.deckofCards.add( oneCard);
@@ -15,3 +16,7 @@ public class DeckofCards {
         }
     }
 }
+
+
+
+
